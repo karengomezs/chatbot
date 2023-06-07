@@ -5,7 +5,7 @@ import { FC, HTMLAttributes } from "react";
 import TextareaAutosie from "react-textarea-autosize";
 import { useMutation } from "@tanstack/react-query";
 import { nanoid } from "nanoid";
-import { Message } from "@/lib/validators/messaje";
+import { Message } from "@/lib/validators/message";
 
 interface ChatInputProps extends HTMLAttributes<HTMLDivElement> {}
 
